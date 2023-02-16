@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Inter;
+  src: url("/Fonts/Inter.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+.box-banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f7fc;
+  padding-top: 70px;
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #000000;
+}
+.box-content button {
+  width: 147px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+  background: #ff7c03;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+.boxImg {
+  position: relative;
+  width: 635px;
+  height: 563px;
+}
+.boxImg .img1 {
+  width: 635px;
+  height: 563px;
+  object-fit: cover;
+}
+.box-featured-items {
+  display: flex;
+  flex-direction: column;
+}
+.box-featured-items h4 {
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  align-self: center;
+  margin: 25px 0;
+}
+.featured-items {
+  display: flex;
+  justify-content: space-around;
+}
+.featured-items .item {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+  background-color: #f8f7fc;
+  align-items: center;
+}
+.item .texts-featured p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.item .texts-featured a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+.box-new-arrival {
+  display: flex;
+  flex-direction: column;
+}
+.box-new-arrival h4 {
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  align-self: center;
+  margin: 45px 0 25px 0;
+}
+.new-arrival-items {
+  display: flex;
+  justify-content: space-around;
+}
+.new-arrival-items .item {
+  background: #ffffff;
+  border: 1px solid rgba(103, 89, 89, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+}
+.item .img-new-arrival {
+  height: 300px;
+  background-color: #f8f7fc;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.item .box-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px 8px 15px 5px;
+
+}
+.box-cart .img-cart {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.box-price .price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: #ff8b1f;
+}
+.box-price .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+}

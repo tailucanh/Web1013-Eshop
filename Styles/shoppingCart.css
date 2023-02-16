@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Inter;
+  src: url("/Fonts/Inter.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+.box-shopping-cart {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 35px 0px 35px;
+  border-bottom: 1px solid #838383;
+}
+
+.box-shopping-cart h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ff7c03;
+}
+.box-list-product {
+  display: flex;
+  flex-direction: space-between;
+  margin-top: 50px;
+}
+.box-products {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.box-products .item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #838383;
+  padding: 35px 10px;
+}
+.box-products .item:nth-child(3) {
+  border-bottom: none;
+}
+.box-info-product {
+  display: flex;
+  justify-content: space-between;
+}
+.box-info-product img {
+  width: 72.5px;
+  height: 100px;
+  object-fit: cover;
+}
+.box-info-product .info {
+  padding-left: 20px;
+}
+
+.box-info-product .info .name {
+  width: 333px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.box-info-product .info .color {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 10px;
+}
+.box-info-product .info .price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  padding-top: 10px;
+}
+.box-info-product .info .sale {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #007185;
+  padding-top: 10px;
+}
+.box-quantity {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.box-quantity .icDelete {
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.box-up-down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+.box-up-down p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.box-quantity .text-total {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.box-check-out {
+  width: 33%;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  background: #f8f7fc;
+  border-radius: 8px;
+  margin-left: 30px;
+  padding: 15px 20px;
+}
+.box-check-out h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.box-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.box-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.box-content .text-total {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.box-content .total-price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ff7c03;
+}
+.box-check-out button {
+  background: #ff7c03;
+  border-radius: 24px;
+  color: #f8f7fc;
+  height: 50px;
+  border: none;
+  margin-top: 25px;
+}
+.box-check-out button a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.box-list-t-shirt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+.box-list-t-shirt .box-title {
+  display: flex;
+  justify-content: space-between;
+}
+.box-list-t-shirt .box-title p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.box-list-t-shirt .box-title span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-right: 12px;
+}
+.box-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-list .ic-arrow {
+  background-color: #e7e7e7;
+  border-radius: 5px;
+}
+.list-t-shirt {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -8px;
+  padding: 0 10px;
+
+  margin-top: 35px;
+}
+.list-t-shirt .item {
+  margin-right: 8px;
+  align-items: center;
+}
+.list-t-shirt .item .name {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #007185;
+}
+.list-t-shirt .item .box-rate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+.list-t-shirt .item .box-rate p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #007185;
+}
+.list-t-shirt .item  .price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b12704;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.list-t-shirt .item  button {
+  height: 30px;
+  width: 109px;
+  background: #ff7c03;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  align-self: center;
+  border: none;
+  color: #ffffff;
+  margin: 0 auto;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanh toán</title>
+  <link rel="stylesheet" href="./Styles/header.css">
+  <link rel="stylesheet" href="./Styles/checkOut.css">
+  <link rel="stylesheet" href="./Styles/footer.css">
+</head>
+
+<body>
+  <header>
+    <img src="/Images/ImageHome/logo.png" class="logo">
+    <div class="box-control">
+      <nav class="menu">
+        <a href="index.html" class="menu-item">Home </a>
+        <a href="" class="menu-item">Featured</a>
+        <a href="shop.html" class="menu-item">Shop</a>
+        <a href="" class="menu-item">New</a>
+      </nav>
+      <div class="box-search">
+        <img src="./Images/ImageHome/search.png" alt="ic-seach" class="img-search">
+        <input type="text" placeholder="Search" class="input-search">
+      </div>
+      <div class="box-login-cart">
+        <img src="/Images/ImageHome/user.png" class="icon-header">
+        <a href="shoppingCart.html"> <img src="/Images/ImageHome/cart.png" class="icon-header"></a>
+
+      </div>
+    </div>
+  </header>
+
+  <article class="box-checkout">
+    <h4>Checkout</h4>
+    <div class="box-payment">
+      <div class="box-card-and-ship">
+        <div class="box-cards">
+          <p class="title">Pay with</p>
+          <div class="box-new-card">
+            <input type="radio" />
+            <div class="list-card">
+              <p>Add a new card</p>
+              <div class="lists">
+                <a href="#"><img src="./Images/ImageShop/CheckOut/card1.png" alt=""></a>
+                <a href="#"><img src="./Images/ImageShop/CheckOut/card2.png" alt=""></a>
+                <a href="#"><img src="./Images/ImageShop/CheckOut/card3.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="box-paypal">
+            <input type="radio" />
+            <img src="./Images/ImageShop/CheckOut/paypal.png" alt="">
+          </div>
+          <div class="box-ggPay">
+            <input type="radio" />
+            <div class="boxContent">
+              <div class="content-gg">
+                <img src="./Images/ImageShop/CheckOut/ggPay.png" alt="">
+                <p>Google Pay</p>
+              </div>
+              <p>Pay in the currency of your choice</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-ship">
+          <p class="title">Ship to</p>
+          <div class="box-info-ship">
+            <form action="form">
+              <div class="box-country">
+                <label>country or region</label><br>
+                <select>
+                  <option selected>Việt Nam</option>
+                  <option>Nhật Bản</option>
+                  <option>Thái Lan</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Firt name">
+              <input type="text" placeholder="Last name">
+              <input type="text" placeholder="Street address">
+              <input type="text" placeholder="Street address 2 (option)">
+              <div class="box-city">
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="ZIP code">
+              </div>
+              <div class="box-country-code">
+                <div class="country-code">
+                  <label>country code</label><br>
+                  <div class="content-code">
+                    <img src="./Images/ImageShop/CheckOut/VietNam.png" alt="">
+                    <select>
+                    <option selected>Việt Nam</option>
+                    <option>Nhật Bản</option>
+                    <option>Thái Lan</option>
+                  </select>
+                  </div>
+                </div>
+                <input type="text" placeholder="Phone number">
+              </div>
+              <div class="box-button-ship">
+                <button class="btnAdd">Add</button>
+                <button class="btnCancel">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="box-confirm-pay">
+        <p class="title">Items(3)</p>
+        <div class="list-item">
+          <div class="item">
+            <img src="./Images/ImageShop/CheckOut/img1.png" alt="">
+            <p>X</p>
+            <p>2</p>
+            <p>$ 20.98</p>
+          </div>
+          <div class="item">
+            <img src="./Images/ImageShop/CheckOut/img2.png" alt="">
+            <p>X</p>
+            <p>1</p>
+            <p>$ 11.99</p>
+          </div>
+          <div class="item">
+            <img src="./Images/ImageShop/CheckOut/img3.png" alt="">
+            <p>X</p>
+            <p>1</p>
+            <p>$ 18.20</p>
+          </div>
+        </div>
+        
+        <div class="box-ship-fee">
+          <p>Shipping fee</p>
+          <p>$ 0</p>
+        </div>
+        <hr>
+        <div class="box-total">
+          <p>Order total</p>
+          <p>$ 51.17</p>
+        </div>
+        <button>Confirm and pay</button>
+      </div>
+    </div>
+  </article>
+
+
+
+
+  <footer>
+    <div class="box-logo">
+      <a href="#"> <img src="./Images/ImageHome/logo.png" class="logo-footer" alt=""></a>
+      <div class="box-internet">
+        <a href="#"> <img src="./Images/ImageHome/facebook.png" alt=""></a>
+        <a href="#"> <img src="./Images/ImageHome/tiwter.png" alt=""></a>
+        <a href="#"> <img src="./Images/ImageHome/insta.png" alt=""></a>
+        <a href="#"> <img src="./Images/ImageHome/youtobe.png" alt=""></a>
+      </div>
+    </div>
+    <div class="box-content-footer">
+      <h5>Page</h5>
+      <nav class="menu-footer">
+        <a href="index.html">Home </a>
+        <a href="">Featured</a>
+        <a href="">Shop</a>
+        <a href="">New</a>
+      </nav>
+    </div>
+    <div class="box-content-footer">
+      <h5>Legal</h5>
+      <nav class="menu-footer">
+        <a href="#">Privacy Policy </a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Terms of use </a>
+        <a href="#">Disclaimer</a>
+      </nav>
+    </div>
+    <div class="box-content-footer">
+      <h5>Brancher</h5>
+      <nav class="menu-footer">
+        <a href="#">Viet Nam</a>
+        <a href="#">United States</a>
+        <a href="#"> Japan </a>
+        <a href="#">Italy</a>
+      </nav>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
